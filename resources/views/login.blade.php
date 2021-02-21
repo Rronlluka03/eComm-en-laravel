@@ -7,7 +7,7 @@
                 <div class="form-group">
                     @csrf
                     <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
